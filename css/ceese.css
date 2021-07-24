@@ -27,7 +27,10 @@
 
 footer {
   display: block;
-  background: #2c1201; }
+  background: #2c1201;
+  position: fixed;
+  width: 100%;
+  bottom: 0; }
 
 .footer__bar {
   list-style: none;
@@ -173,11 +176,12 @@ footer {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
-  margin: 0; }
+  margin: 0;
+  height: auto; }
   .bodyContact h1 {
     line-height: 1.2;
     margin-top: 0;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 0 auto; }
   .bodyContact p {
     margin-top: 0;
     font-size: 1.125rem; }
@@ -185,7 +189,7 @@ footer {
     display: flex;
     align-items: center;
     font-size: 1.125rem;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 0 auto; }
   .bodyContact button {
     border: none;
     width: 40%;
@@ -216,31 +220,20 @@ footer {
   height: 1.30rem;
   border-radius: 5px; }
 
+.collapse {
+  flex-grow: 0; }
+
 .logoType {
-  margin-right: 1200px;
   margin-left: 10px;
   margin-bottom: 15px;
   width: 263px;
   height: 55px;
   border-radius: 5px; }
 
-#exampleFormControlSelect1 {
-  width: 67.5%;
-  margin-left: 312px; }
-
-.exampleSelect {
-  margin-left: 312px; }
-
 .btnBtn {
   margin-top: 25px;
-  margin-left: 600px; }
-
-#exampleFormControlTextarea1 {
-  width: 67.5%;
-  margin-left: 312px; }
-
-.formText {
-  margin-top: 50px; }
+  margin-left: 50%;
+  transform: translate(-50%); }
 
 .carousel {
   margin: 0 auto;
