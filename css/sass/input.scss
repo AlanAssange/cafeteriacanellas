@@ -23,7 +23,7 @@
   }
 
   .formText {
-    margin-top: 70px;
+    margin-top: 100px;
   }
 
   .esp__list {
@@ -38,13 +38,9 @@
   }
   
   .imgHeight {
-    margin-bottom: 65px;
     width: 100%;
   }
 
-  .imgHeightt {
-    width: 100%;
-  }
   
   footer {
     display: block;
@@ -55,9 +51,8 @@
   .footer {
     display: block;
     background: $commonback;
-    position: fixed;
     width: 100%;
-    bottom: 0;
+    margin-top: 15.6rem;
   }
 
   .footer__bar {
